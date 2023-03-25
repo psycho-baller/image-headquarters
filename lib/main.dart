@@ -20,9 +20,7 @@ void main() async {
         await FirebasePerformance.instance
             .setPerformanceCollectionEnabled(false);
       }
-      await dotenv.load(
-          fileName:
-              kDebugMode ? 'environments/debug.env' : 'environments/.env');
+      await dotenv.load(fileName: 'environments/.env');
       FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterError;
 
       ErrorWidget.builder = (FlutterErrorDetails error) {

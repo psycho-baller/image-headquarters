@@ -46,7 +46,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "dev.psycho-baller.photo-headquarters"
+        applicationId "dev.psychoballer.photoheadquarters"
         minSdkVersion 19
         targetSdkVersion 30
         versionCode flutterVersionCode.toInteger()

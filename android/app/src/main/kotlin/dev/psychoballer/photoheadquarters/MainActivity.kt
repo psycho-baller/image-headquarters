@@ -1,4 +1,4 @@
-package dev.psycho-baller.photo-headquarters
+package dev.psychoballer.photoheadquarters
 
 import io.flutter.embedding.android.FlutterActivity
 
