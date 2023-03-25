@@ -1,4 +1,4 @@
-package dev.danvickmiller.flutterboilerplate
+package dev.psycho-baller.photo-headquarters
 
 import io.flutter.embedding.android.FlutterActivity
 

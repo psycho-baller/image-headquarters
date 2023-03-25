@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterboilerplate/router.dart';
+import 'package:photo_headquarters/router.dart';
 import 'package:go_router/go_router.dart';
 
 class MyApp extends StatefulWidget {
