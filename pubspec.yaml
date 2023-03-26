@@ -22,7 +22,10 @@ dependencies:
   json_serializable: ^6.5.4
   package_info_plus: ^3.0.2
   pretty_dio_logger: ^1.1.1
-
+  google_sign_in: ^6.0.2
+  extension_google_sign_in_as_googleapis_auth: ^2.0.9
+  googleapis_auth: ^1.4.0
+  googleapis: ^10.1.0
 dev_dependencies:
   build_runner: ^2.3.2
   # flutter packages pub run build_runner watch --delete-conflicting-outputs

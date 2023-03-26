@@ -3,6 +3,9 @@ import 'package:dio_cache_interceptor/dio_cache_interceptor.dart';
 import 'package:firebase_performance_dio/firebase_performance_dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:google_sign_in/google_sign_in.dart';
+import 'package:extension_google_sign_in_as_googleapis_auth/extension_google_sign_in_as_googleapis_auth.dart';
+import 'package:googleapis_auth/src/auth_client.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 
 import 'http_interceptors/auth_interceptor.dart';
@@ -10,7 +13,8 @@ import 'http_interceptors/error_interceptor.dart';
 import 'http_interceptors/user_agent_interceptor.dart';
 
 class HttpClient {
-  static String get serverUrl => dotenv.env['SERVER_URL']!;
+  static String get google_photos_url => dotenv.env['GOOGLE_PHOTOS_URL']!;
+  static String get google_photos_api => dotenv.env['GOOGLE_PHOTOS_API']!;
 
   static CacheOptions defaultCacheOptions = CacheOptions(
     // A default store is required for interceptor.
